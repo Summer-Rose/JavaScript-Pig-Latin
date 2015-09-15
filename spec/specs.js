@@ -5,11 +5,15 @@ describe('pigLatinWord', function() {
 
   it("moves qu as a unit to the end of the word then attached 'ay'", function() {
     expect(pigLatinWord("squeal")).to.equal("ealsquay");
-  })
+  });
+
+  it("keeps punctuation at end of word when returned"), function() {
+    expect(pigLatinWord("Epicodus!")).to.equal("epicodusay!")
+  }
 });
 
 describe('pigLatin', function() {
   it("accpet phrase and return pig Latin phrase array", function() {
-    expect(pigLatin("Summer and Jen")).to.equal("ummersay anday enjay");
+    expect(pigLatin("Summer and Jen!")).to.equal("ummersay anday enjay!");
   });
 });
