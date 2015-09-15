@@ -4,14 +4,14 @@
 //   });
 // });
 
-describe('startsWithVowel', function() {
-  it("Adds ay to end of word if it starts with a vowel", function() {
-    expect(startsWithVowel("epicodus")).to.equal("epicodusay");
-  });
-});
+// describe('startsWithVowel', function() {
+//   it("Adds ay to end of word if it starts with a vowel", function() {
+//     expect(startsWithVowel("epicodus")).to.equal("epicodusay");
+//   });
+// });
 
 describe('startsWithCon', function() {
   it("moves first letter of word to end of word and attaches 'ay'", function() {
-    expect(startsWithCon("piglatin")).to.equal("iglatinpay");
+    expect(startsWithCon("psychology")).to.equal("ologypsychay");
   });
 });
