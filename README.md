@@ -1,8 +1,8 @@
-# Project Name
+# Pig Latin
 
-##### _Project Purpose, date 2015_
+##### _JavaScript Project - Epicodus Week 6, 15 September 2015_
 
-#### By **Names**
+#### By **Summer Brochtrup & Jennifer Morkunas**
 
 ## Description
 
@@ -23,7 +23,7 @@ Description goes here
 
 ### Legal
 
-Copyright (c) 2015 **NAMES**
+Copyright (c) 2015 **Summer Brochtrup & Jennifer Morkunas**
 
 This software is licensed under the MIT license.
 
