@@ -7,3 +7,9 @@ describe('pigLatinWord', function() {
     expect(pigLatinWord("squeal")).to.equal("ealsquay");
   })
 });
+
+describe('pigLatin', function() {
+  it("accpet phrase and return pig Latin phrase array", function() {
+    expect(pigLatin("Summer and Jen")).to.equal("ummersay anday enjay");
+  });
+});
