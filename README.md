@@ -6,7 +6,9 @@
 
 ## Description
 
-Description goes here
+Pig Latin takes user input and translates to Pig Latin. For words that start with a vowel, it adds "ay" to the end. For words that start with one or more consonants, it moves all of the first consecutive consonants to the end and adds "ay". It also recognized "qu" as a letter unit.
+
+This version of Pig Latin does not yet account for punctuation, although there are remnants of our attempts in the source code. 
 
 ## Setup
 
